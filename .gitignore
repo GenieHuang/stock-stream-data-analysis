@@ -1,0 +1,7 @@
+.env
+stock-stream-analysis-key.pem
+
+venv
+__pycache__
+
+jar_files
