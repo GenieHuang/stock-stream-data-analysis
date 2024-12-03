@@ -93,6 +93,8 @@ def send_stock_dataset():
     create_topic(topic, stocks_count)
 
     idx = 0
+
+    # regular_market_session()
     for symbol in symbol_list:
         partition_key = symbol
         partition_idx = idx
