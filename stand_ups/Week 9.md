@@ -1,0 +1,4 @@
+1. Added a function to check if kafka is running, and another one to check if the stock market is closing. If it’s not a trading time, it will print out a msg.
+2. I used docker to isolate the different part of the data pipeline to increase the scalability and security. More importantly, docker has an instruction called healthcheck, so i can check the health of a running part. Once there is some errors within the upstream, it will automatically pause the process.
+3. To automate the data pipeline, I utilized Apache airflow as the scheduling tool to run the script daily. But I only complete one dag task. So keeping on airflow is what I’m going to do for next week.
+4. Currently I can’t see the log of airflow tasks, so I have to address this issue in case I meet other errors in the future and don’t know what the errors are.
