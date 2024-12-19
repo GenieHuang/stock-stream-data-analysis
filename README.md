@@ -8,8 +8,9 @@ stock-stream-data-analysis/
 ├── airflow/
 │   └── dags/
 │       └── kafka_streaming.py
+│   └── script/
+│       └── entrypoint.sh
 ├── pyspark_data_transformation/
-│   ├── jar_files/
 │   ├── requirements.txt
 │   ├── spark_processing.py
 │   └── stand_ups/
@@ -19,10 +20,10 @@ stock-stream-data-analysis/
 ├── stock_data_extraction/
 │   ├── get_stock_data.py
 │   └── stock_data_producer.py
+├── .gitignore
 ├── docker-compose.yml
 ├── README.md
-├── requirements.txt
-└── stock-stream-analysis-key.pem
+└── requirements.txt
 ```
 
 Prerequisites
