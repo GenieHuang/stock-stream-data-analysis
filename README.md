@@ -3,6 +3,7 @@ A real-time stock market data pipeline that processes and analyzes streaming sto
 
 Alpaca API → Kafka → PySpark → AWS Glue → AWS Athena
 
+```
 stock-stream-data-analysis/
 ├── airflow/
 │   └── dags/
@@ -22,6 +23,7 @@ stock-stream-data-analysis/
 ├── README.md
 ├── requirements.txt
 └── stock-stream-analysis-key.pem
+```
 
 Prerequisites
 
